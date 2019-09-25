@@ -10,7 +10,6 @@ import Foundation
 import CoreData
 
 extension Playlist {
-    
     // secondary init we can use at our convenience 
     convenience init(playlistName: String, songs: [Song] = [], moc: NSManagedObjectContext = CoreDataStack.context) {
         self.init(context: moc)

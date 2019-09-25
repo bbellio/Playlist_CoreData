@@ -10,7 +10,6 @@ import Foundation
 import CoreData
 
 class CoreDataStack {
-    
     static let container: NSPersistentContainer = {
         // same name as xcdata model file
         let container = NSPersistentContainer(name: "Playlist_CoreData")
