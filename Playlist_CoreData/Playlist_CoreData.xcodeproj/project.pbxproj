@@ -18,6 +18,7 @@
 		FCD7E187233BDAE80058C0BD /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7E186233BDAE80058C0BD /* Playlist+Convenience.swift */; };
 		FCD7E18A233BDC810058C0BD /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7E189233BDC810058C0BD /* Song+Convenience.swift */; };
 		FCD7E18D233BDF820058C0BD /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7E18C233BDF820058C0BD /* PlaylistController.swift */; };
+		FCD7E190233BE67D0058C0BD /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD7E18F233BE67D0058C0BD /* SongController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FCD7E186233BDAE80058C0BD /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		FCD7E189233BDC810058C0BD /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		FCD7E18C233BDF820058C0BD /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		FCD7E18F233BE67D0058C0BD /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FCD7E18C233BDF820058C0BD /* PlaylistController.swift */,
+				FCD7E18F233BE67D0058C0BD /* SongController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD7E190233BE67D0058C0BD /* SongController.swift in Sources */,
 				FCD7E185233BD8860058C0BD /* CoreDataStack.swift in Sources */,
 				FCD7E18D233BDF820058C0BD /* PlaylistController.swift in Sources */,
 				FCD7E171233BCF6B0058C0BD /* ViewController.swift in Sources */,
